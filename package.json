@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial_nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThienDuong2909/Nodejs_Tutorial.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Start"
+  ],
+  "author": "ThienDuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThienDuong2909/Nodejs_Tutorial/issues"
+  },
+  "homepage": "https://github.com/ThienDuong2909/Nodejs_Tutorial#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
